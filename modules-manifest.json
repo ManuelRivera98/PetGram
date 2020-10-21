@@ -1,0 +1,47 @@
+{
+  "name": "modules",
+  "content": {
+    "./node_modules/react/index.js": {
+      "id": 0,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "./node_modules/react-dom/index.js": {
+      "id": 10,
+      "buildMeta": {
+        "providedExports": true
+      }
+    },
+    "./node_modules/styled-components/dist/styled-components.browser.esm.js": {
+      "id": 14,
+      "buildMeta": {
+        "exportsType": "namespace",
+        "providedExports": [
+          "default",
+          "ServerStyleSheet",
+          "StyleSheetConsumer",
+          "StyleSheetContext",
+          "StyleSheetManager",
+          "ThemeConsumer",
+          "ThemeContext",
+          "ThemeProvider",
+          "__PRIVATE__",
+          "createGlobalStyle",
+          "css",
+          "isStyledComponent",
+          "keyframes",
+          "useTheme",
+          "version",
+          "withTheme"
+        ]
+      }
+    },
+    "./node_modules/prop-types/index.js": {
+      "id": 17,
+      "buildMeta": {
+        "providedExports": true
+      }
+    }
+  }
+}
