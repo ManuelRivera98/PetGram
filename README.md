@@ -7,7 +7,7 @@
 
 https://petgram-mr98.vercel.app
 
-Simulando un clon de instagram, manejando el estado de la aplicación con Context Api.
+Simulando un clon de instagram con React Js, manejando el estado de la aplicación con Context Api.
 
 ## Empezar 
 
