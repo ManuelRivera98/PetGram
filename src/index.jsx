@@ -11,7 +11,7 @@ import App from './App';
 const tokenCode = window.localStorage.getItem('tokenCode');
 
 const client = new ApolloClient({
-  uri: 'https://petgramsd.now.sh/graphql',
+  uri: 'https://api-petgram-sigma.vercel.app/graphql',
   request: (operation) => {
     const authorization = tokenCode ? `Bearer ${tokenCode}` : '';
     operation.setContext({

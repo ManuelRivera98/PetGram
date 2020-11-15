@@ -7,7 +7,7 @@ import useGetData from '../hooks/useGetData';
 
 
 const ListOfCategories = () => {
-  const data = useGetData('https://petgramsd.now.sh/categories');
+  const data = useGetData('https://api-petgram-sigma.vercel.app/categories');
   return (
     <ListOfCategoriesComponent {...data} />
   );
